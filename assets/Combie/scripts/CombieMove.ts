@@ -19,6 +19,7 @@ export default class NewClass extends cc.Component {
     typeTranslate: string = 'rightToLeft'
     speed: number = 100
     isMoving: boolean = false
+    isStartGame: boolean = false
     animationState: any
 
     onKeyDown(e) {
@@ -58,7 +59,7 @@ export default class NewClass extends cc.Component {
     }
 
     update (dt) {
-        if(this.isMoving) {
+        if(this.isStartGame && this.isMoving) {
             this.animationState.play()
             // if(this.typeTranslate === 'rightToLeft') {
             //     const translateX = this.node.position.x - this.speed * dt

@@ -16,6 +16,7 @@ export default class NewClass extends cc.Component {
     typeTranslate: string = 'rightToLeft'
     speed: number = 100
     isMoving: boolean = false
+    isStartGame: boolean = false
     maxFrameWidth: number = 640
 
 
@@ -55,7 +56,7 @@ export default class NewClass extends cc.Component {
         //first, set position center to the Background of second part (position of the Background is -640)
         //when the Background slide by right to left, if slide to the third part (position of the Background is -1280 (640*2)), the Background will be original setting (position is -640)
         //when the Background slide by left to right, if slide to the first part (position of the Background is 0), the Background will be original setting (position is -640)
-        if(this.isMoving) {
+        if(this.isStartGame && this.isMoving) {
             if(this.typeTranslate === 'leftToRight') {
                 const translateX = this.node.position.x - this.speed * dt
                 this.node.setPosition(translateX, this.node.position.y)
