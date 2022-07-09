@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rock-monument",
+    "texture": "ced32d1e-8887-46e4-9b4f-3c3e57d7cd9c",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      100,
+      89
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      101,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

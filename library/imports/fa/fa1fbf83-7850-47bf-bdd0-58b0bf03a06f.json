@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tree-pink",
+    "texture": "9df758ef-0af2-4e02-95d5-b284de5395a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      65,
+      80
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      67,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

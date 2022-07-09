@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hero-walk-side-5",
+    "texture": "7bdc991e-07cb-4fb6-9291-ecd6af7a8f27",
+    "atlas": "",
+    "rect": [
+      9,
+      8,
+      14,
+      21
+    ],
+    "offset": [
+      0,
+      -2.5
+    ],
+    "originalSize": [
+      32,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

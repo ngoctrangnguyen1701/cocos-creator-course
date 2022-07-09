@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tree-dried",
+    "texture": "cebb4817-c298-4a93-b957-ea28ce9b8fc0",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      96,
+      104
+    ],
+    "offset": [
+      -1.5,
+      -1
+    ],
+    "originalSize": [
+      101,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

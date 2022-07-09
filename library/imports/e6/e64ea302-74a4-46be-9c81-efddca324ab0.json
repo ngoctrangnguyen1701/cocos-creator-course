@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bush-tall",
+    "texture": "44b1c2f2-89f0-47d0-8c1f-11bd8f247654",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      16,
+      27
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      18,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
